@@ -2,11 +2,11 @@
 data "aws_caller_identity" "current" {}
 
 variable "company_name" {
-  default = "adopt-guide-demos-US2"
+  default = "adopt-guide-demos-us2"
 }
 
 variable "environment" {
-  default = "demoUS2"
+  default = "demous2"
 }
 
 locals {
