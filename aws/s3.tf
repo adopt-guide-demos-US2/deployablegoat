@@ -19,6 +19,7 @@ resource "aws_s3_bucket" "data" {
     git_modifiers        = "gbrandyburg/matt"
     git_org              = "adopt-guide-demos-US2"
     git_repo             = "deployablegoat"
+    PCIRequired          = "true"
   }
 }
 
@@ -42,6 +43,7 @@ resource "aws_s3_bucket" "financials" {
     git_modifiers        = "gbrandyburg/matt"
     git_org              = "adopt-guide-demos-US2"
     git_repo             = "deployablegoat"
+    PCIRequired          = ""
   }
 }
 
@@ -67,6 +69,7 @@ resource "aws_s3_bucket" "operations" {
     git_modifiers        = "gbrandyburg/matt"
     git_org              = "adopt-guide-demos-US2"
     git_repo             = "deployablegoat"
+    PCIRequired          = ""
   }
 
 }
